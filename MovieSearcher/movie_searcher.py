@@ -6,7 +6,7 @@ import requests
 import requests.exceptions
 
 MovieResult = collections.namedtuple('MovieResult', 'Title, Year, imdbID, Type, Poster')
-api_key = os.environ.get('OMDB_API_KEY')
+api_key = 'a7eeee03'
 path = os.path.dirname(os.path.realpath(__file__))
 
 
