@@ -7,7 +7,7 @@ import requests.exceptions
 
 MovieResult = collections.namedtuple('MovieResult', 'Title, Year, imdbID, Type, Poster')
 api_key = 'a7eeee03'
-path = os.path.dirname(os.path.realpath(__file__))
+path = os.getcwd()
 
 
 def find_movies(search_term):

@@ -27,7 +27,7 @@ After it is installed you can start it by simply typing in your terminal:
 from setuptools import setup
 
 setup(name='MovieFinder',
-      version='0.2',
+      version='0.3',
       description='Script for finding movies by given term. It will get all the movies from database that contain a '
                   'given term and print them out along with the year they were released. Results will be printed in '
                   'chronological order, from newer to older. There will also be a folder with the same name as input '
